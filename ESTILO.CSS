@@ -1,6 +1,23 @@
 .color{
     background-color: #66cdaa;
+     
 
-   
+}
+.navbar-dar{
+    background-color: #cd66ab
 
+}
+.bg-dar{
+
+    background-color: #f0fff0
+
+}
+.navbar-toggle{
+padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #008080;
+    border: 1px solid #0dcaf0;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
 }
