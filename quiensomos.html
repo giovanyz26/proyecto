@@ -6,43 +6,83 @@
     <title>paginaweb</title>
     <link rel="stylesheet" type="text/css" media="screen" href="./bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./ESTILO.CSS">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .carousel-caption{
+        padding-bottom: 20%;
+      }
+    </style>
 </head>
 <body>
-  
-    <nav class="navbar navbar-expand-md navbar-white bg-white fixed-top color">
-        <a class="navbar-brand" href="#"></a>
-        <img src="./bootstrap-5.0.0-beta1-dist/imagenes/MASCOTAS.png" alt="" width="100">
-    
-        <nav class="navbar navbar-white bg-white color">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </div>
-          </nav>
-        <div class="collapse navbar-collapse color" id="navbarToggleExternalContent"> 
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active"><a class="nav-link " href="#">inicio </a></li>
-                <li class="nav-item "><a class="nav-link " href="#">quienes somos </a></li>  
-                <li class="nav-item "><a class="nav-link " href="#">nuestro equipo </a></li>
-                
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    categorias
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">alimentos</a></li>
-                    <li><a class="dropdown-item" href="#">medicina</a></li>
-                    <li><a class="dropdown-item" href="#">snacks</a></li>
-                    <li><a class="dropdown-item" href="#">accesorios</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item "><a class="nav-link " href="#">iniciar sesion</a></li>
-                <li class="nav-item "><a class="nav-link " href="#">registro  </a></li>
-                <li class="nav-item "><a class="nav-link " href="#">blog </a></li>
+  <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #f0fff0;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <img src="./bootstrap-5.0.0-beta1-dist/imagenes/MASCOTAS.png" alt="" width="100">
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">quienes somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">nuestro equipo</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              categorias de productos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">alimentos</a></li>
+              <li><a class="dropdown-item" href="#">medicinas</a></li>
+              <li><a class="dropdown-item" href="#">snacks</a></li>
+              <li><a class="dropdown-item" href="#">accesorios</a></li>
             </ul>
-        </div> 
-    </nav>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">carro de compras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">inicio de sesion </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">crear usuario </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">blog </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">contactenos </a>
+          </li>
+          
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+  <main>
+
+
+
+
+
 
 
  <section id="hero" class="bg primary">
@@ -57,7 +97,7 @@
   </div>
   <div class="col-lg-5 ofset-lg-1 d-flex">
   <div class="align-self-center">
-    <img src="./js/mascota1.jpg" class="img-fluid main photo">
+    <img src="./Imagenes/mascota1.jpg" class="img-thumbnail" >
   </div> 
   </div>
 </div>
@@ -68,28 +108,30 @@
 
 <section id="hero" class="bg primary">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
+ <div class="row">
+      <div class="col-lg-12">
         <h2 class="tex-light display-4"> Vision</h2>
+
+        
+        <div class="col-lg-12">
+          <div class="align-self-center">
+            <img class="img-thumbnail "src="./Imagenes/imagen3.jpeg" >
         <p class="tex-light lead mt-4"> funny Pets, sera caracterizada por tener un servicio de calidad, y de esta manera poder 
           llegar de una manera mas confiada y segura  a los mercados mayoristas y minoristas, lo cual nos
       permita un crecimiento a nivel nacional y poder comercializar productos nacionales e importados.  </p>
     </div>
-    <div class="col-lg-5 ofset-lg-1 d-flex">
-    <div class="align-self-center">
-      <img src="./js/imagen3.jpeg" class="img-fluid main photo">
+    
     </div> 
     </div>
   </div>
   </div>
 
-  <!--valores-->
-
+             
   <section id="hero" class="bg primary">
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <h2 class="tex-light display-4"> Nuestos Valores</h2>
+          <h2 class="tex-light display-4"> Nuestros Valores</h2>
           <p class="tex-light lead mt-4"> Confianza  </p>
           <p class="tex-light lead mt-4"> Compromiso  </p>
           <p class="tex-light lead mt-4"> Responsabilidad  </p>
@@ -99,7 +141,7 @@
       </div>
       <div class="col-lg-5 ofset-lg-1 d-flex">
       <div class="align-self-center">
-        <img src="./js/mascotas2.jpg" class="img-fluid main photo">
+        <img src="./Imagenes/mascotas2.jpg" class="img-thumbnail">
       </div> 
       </div>
     </div>
@@ -123,45 +165,10 @@
             <address>
               <p>BOGOTA, COLOMBIA</p> 
            <p> +57  3221112233</p> 
-             <p> contacto@petfriendly.com</p> 
+             <p> contacto@petfriendly.comm</p> 
             </address>
           </div>
       </div>
-
+  
     </footer>
-    <footer class="text-muted py-5">
-      <div class="container">
-        <p class="float-end mb-1">
-          <a href="#">Back to top</a>
-        </p>
-        <p class="mb-1">Anime &copy; Creada por giovany alexander chalapud pedraza</p>
-    
-      </footer>
-
-  <script src="./bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>     
       
-
-
-    
-
-
-
-
-        
-
-         
-                
-
-
-
-
-
-
-
-
-
-    
-</body>
-</html>
