@@ -11,12 +11,30 @@
 .container-lg,
 .container-md,
 .container-sm {
-  width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
-  margin-right: auto;
-  margin-left: auto;
+  width: 80%;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: 100;
+  margin-left: 100;
 }
+
+
+.section-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tex-light{ color: #008080;}
+
+
+
+
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
 
 @media (min-width: 576px) {
   .container-sm, .container {
