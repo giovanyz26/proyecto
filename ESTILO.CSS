@@ -22,6 +22,7 @@ padding: .25rem .75rem;
     transition: box-shadow .15s ease-in-out;
 }
 
+/* CCS nuestro equipo */
 *{
     margin: 0px;
     padding: 0px;
@@ -89,4 +90,24 @@ padding: .25rem .75rem;
     border: 1px solid #0dcaf0;
     border-radius: .25rem;
     transition: box-shadow .15s ease-in-out;
+}
+
+/* CCS carro de compras */
+.d{
+    text-align: right;
+    color: #66cdaa;
+}
+
+.form-group{
+    
+    width: 100%;
+    padding-top: calc(.375rem + 1px);
+    padding-bottom: calc(.375rem + 1px);
+    margin-bottom: 0;
+    font-size: inherit;
+    color: #66cdaa;
+}
+.descripcion{
+    color: #66cdaa;
+    border-top: 1px solid #dee2e6;
 }
