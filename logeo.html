@@ -24,20 +24,6 @@
       .carousel-caption{
         padding-bottom: 20%;
       }
-
-     .container{
-      background-color: #f0fff0
-     }
-
-
-     h1,
-     h2 {
-    text-align: center;
-    font-family: 'Krona One', sans-serif;
-     }
-
-
-
     </style>
 </head>
 <body>
@@ -91,96 +77,67 @@
       </div>
     </div>
   </nav>
-  <main>
-
-
-
-
-
-
-
- <section id="hero" class="bg primary">
-<div class="container">
-  <div class="row">
-    <div class="col-lg-6">
-      <h2 class="tex-light display-4"> Mision</h2>
-      <p class="tex-light lead mt-4"> funny Pets, es una compañia dedicada a la comercializacion y venta de productos
-        para mascotas. Adicional te asesoramos con  tips correspondientes al cuidado y prevencion de nuestros
-        pequeños consentidos, y vas a poder enterarte de las diferentes campañas de salud y prevencion 
-</p>
-  </div>
-  <div class="col-lg-5 ofset-lg-1 d-flex">
-  <div class="align-self-center">
-    <img src="./Imagenes/mascota1.jpg" class="img-thumbnail" >
-  </div> 
-  </div>
-</div>
-</div>
-
-<!--vision-->
-
-<div class="container">
-  <div class="row">
-    <div class="col-lg-6">
-      <img class="img-thumbnail " src="./Imagenes/imagen3.jpeg" >
-    </div>
-    <div class="col-lg-6">
-      <h2 class="tex-light display-4"> Vision</h2>
-      <p > funny Pets, sera caracterizada por tener un servicio de calidad, y de esta manera poder 
-        llegar de una manera mas confiada y segura  a los mercados mayoristas y minoristas, lo cual nos
-    permita un crecimiento a nivel nacional y poder comercializar productos nacionales e importados.  </p>
-       
-    </div>
-  </div>
-
-</div>
-
-
-
-
-             
-  <section id="hero" class="bg primary">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <h2 class="tex-light display-4"> Nuestros Valores</h2>
-          <p class="tex-light lead mt-4"> Confianza  </p>
-          <p class="tex-light lead mt-4"> Compromiso  </p>
-          <p class="tex-light lead mt-4"> Responsabilidad  </p>
-          <p class="tex-light lead mt-4"> Honestidad  </p>
-          <p class="tex-light lead mt-4"> Calidad  </p>
-          <p class="tex-light lead mt-4"> Servicio al Cliente  </p>
-      </div>
-      <div class="col-lg-5 ofset-lg-1 d-flex">
-      <div class="align-self-center">
-        <img src="./Imagenes/mascotas2.jpg" class="img-thumbnail">
-      </div> 
-      </div>
-    </div>
-    </div>
-
-
-
-    </section>
-
+    
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
+  </head>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
         
-    <footer>
-      <div class="row color">
-          <div class="col-sm-4    d-flex flex-column"  >
-            <a href="https://www.facebook.com/">facebook</a>
-            <a href="https://twitter.com/">twitter</a>
-            <a href="https://www.instagram.com/">instagram</a>
-            <a href="https://www.google.com/">google</a>
-          </div>
-   
-          <div class="col-sm-4  d-flex flex-column">
-            <address>
-              <p>BOGOTA, COLOMBIA</p> 
-           <p> +57  3221112233</p> 
-             <p> contacto@petfriendly.comm</p> 
-            </address>
-          </div>
       </div>
-  
-    </footer>
-      
+      <div class="col-sm">
+        <main class="form-signin">
+          <form>
+            <img class="mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+            <h1 class="h3 mb-3 fw-normal">por favor ingresar</h1>
+            <label for="inputEmail" class="visually-hidden">correo electronico</label>
+            <input type="email" id="inputEmail" class="form-control" placeholder="correo electronico" required autofocus>
+            <label for="inputPassword" class="visually-hidden">Password</label>
+            <input type="password" id="inputPassword" class="form-control" placeholder="contraseña" required>
+            <div class="checkbox mb-3">
+              <label>
+                <input type="checkbox" value="remember-me"> recordar
+              </label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">entrar</button>
+            <p class="mt-5 mb-3 text-muted">&copy; </p>
+          </form>
+        </main>
+      </div>
+      <div class="col-sm">
+        
+      </div>
+    </div>
+  <body class="text-center">
+    
+
+</div>
+
+</div>
+
+    
+  </body>
+  <footer>
+    <div class="row color">
+        <div class="col-sm-4    d-flex flex-column"  >
+          <a href="https://www.facebook.com/">facebook</a>
+          <a href="https://twitter.com/">twitter</a>
+          <a href="https://www.instagram.com/">instagram</a>
+          <a href="https://www.google.com/">google</a>
+        </div>
+ 
+        <div class="col-sm-4  d-flex flex-column">
+          <address>
+            <p>BOGOTA, COLOMBIA</p> 
+         <p> +57  3221112233</p> 
+           <p> contacto@petfriendly.comm</p> 
+          </address>
+        </div>
+    </div>
+
+  </footer>
+    
+
+    <script src="./bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
+</html>
